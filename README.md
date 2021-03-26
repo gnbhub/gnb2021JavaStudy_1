@@ -1,4 +1,4 @@
-# 2021JavaStudy_1
+# gnb2021JavaStudy_1
 [2021.1] Java 스터디
 
 ### 시간 및 장소
