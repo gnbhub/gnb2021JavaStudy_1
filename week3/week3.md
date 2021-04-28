@@ -17,15 +17,23 @@
 
 
 `
+
 example)
+
 String[] beer = {"Kloud", "Cass", "Asahi", "Guinness", "Heineken"};
 
 //index = 0 ~ length - 1
+
 System.out.print(beer[0]); //Kloud
+
 System.out.print(beer[1]); //Cass
+
 System.out.print(beer[2]); //Asahi
+
 System.out.print(beer[3]); //Guinness
+
 System.out.print(beer[4]); //Heineken
+
 `
 
 
@@ -34,10 +42,15 @@ System.out.print(beer[4]); //Heineken
 
 `
 자료형[] 변수 = new 자료형[배열크기]; // 좌우 자료형 통일
+
 .
+
 .
+
 .
+
 변수[0] = 데이터값;
+
 변수[1] = 데이터값;
 `
 
@@ -47,9 +60,13 @@ new 연산자로 배열을 생성시킴
 
 `
 example)
+
 int[] num = new int[3];
+
 num[0] = 10;
+
 num[1] = 15;
+
 num[2] = 13;
 `
 
@@ -59,13 +76,21 @@ num[2] = 13;
 
 `
 example)
+
 int[] num = new int[5]; //배열 생성
+
 Scanner sc = new Scanner(System.in);
+
 System.out.println("5개의 정수를 입력하시오.");
+
 for (int i = 0; i < num.length; i++)
+
 {
-  num[i] = sc.nextInt(); //데이터 입력 및 배열에 저장
+
+num[i] = sc.nextInt(); //데이터 입력 및 배열에 저장
+
 }
+
 `
 
 
@@ -73,7 +98,7 @@ for (int i = 0; i < num.length; i++)
 데이터 값들을 모를 때가 더 많기 때문에 위의 방법을 더 많이 사용한다.
 
 
-`double[] myList = new double[10]` ✔선호
+`double[] myList = new double[10]`
 =
 `double myList[] = new double[10]`
 
