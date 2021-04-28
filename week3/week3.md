@@ -17,7 +17,6 @@
 
 
 `
-
 example)
 
 String[] beer = {"Kloud", "Cass", "Asahi", "Guinness", "Heineken"};
@@ -33,7 +32,6 @@ System.out.print(beer[2]); //Asahi
 System.out.print(beer[3]); //Guinness
 
 System.out.print(beer[4]); //Heineken
-
 `
 
 
@@ -114,6 +112,7 @@ arrayRefVar.length
 
 `
 example)
+
 myList.length // return 10
 `
 
@@ -121,9 +120,9 @@ myList.length // return 10
 #### 배열 디폴트값
 
 
-numeric primitive data type -> 0
-char type -> '\u0000'
-boolean type -> false
+numeric primitive data type -> 0 <br>
+char type -> '\u0000' <br>
+boolean type -> false <br>
 String type -> null // not ""
 
 
@@ -131,9 +130,13 @@ String type -> null // not ""
 
 `
 double[] myList = new double[4];
+
 myList[0] = 1.9;
+
 myList[1] = 2.9;
+
 myList[2] = 3.4;
+
 myList[3] = 3.5;
 `
 
