@@ -5,4 +5,13 @@
 
 일차원 배열
 
-arrayRefVar = new 
+`
+arrayRefVar = new datatype[arraySize];
+`
+
+`
+example)
+myList = new double[10];
+
+myList[0] //the first element
+myList[9] //the last element
