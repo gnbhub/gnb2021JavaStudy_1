@@ -10,9 +10,11 @@
 ##### 배열 선언 방법
 
 1) 데이터의 값을 알고 있을 때 사용
+
 `
 자료형[] 변수 = {데이터1, 데이터2, 데이터3, ...};
 `
+
 
 `
 example)
@@ -26,7 +28,9 @@ System.out.print(beer[3]); //Guinness
 System.out.print(beer[4]); //Heineken
 `
 
+
 2) 배열의 값은 모르지만 향후 값을 저장하기 위한 배열을 생성하고 싶을 경우 사용✔
+
 
 `
 자료형[] 변수 = new 자료형[배열크기]; // 좌우 자료형 통일
@@ -37,7 +41,9 @@ System.out.print(beer[4]); //Heineken
 변수[1] = 데이터값;
 `
 
+
 new 연산자로 배열을 생성시킴
+
 
 `
 example)
@@ -47,7 +53,9 @@ num[1] = 15;
 num[2] = 13;
 `
 
+
 사용 방법
+
 
 `
 example)
@@ -60,33 +68,42 @@ for (int i = 0; i < num.length; i++)
 }
 `
 
+
 위의 예시처럼 배열의 값을 모를 때 배열을 정의만 하고 값은 입력받아 사용!
 데이터 값들을 모를 때가 더 많기 때문에 위의 방법을 더 많이 사용한다.
+
 
 `double[] myList = new double[10]` ✔선호
 =
 `double myList[] = new double[10]`
 
 
+
 #### 배열의 길이
+
 
 `
 arrayRefVar.length
 `
+
 
 `
 example)
 myList.length // return 10
 `
 
+
 #### 배열 디폴트값
+
 
 numeric primitive data type -> 0
 char type -> '\u0000'
 boolean type -> false
 String type -> null // not ""
 
+
 #### 배열 초기화
+
 `
 double[] myList = new double[4];
 myList[0] = 1.9;
@@ -94,22 +111,27 @@ myList[1] = 2.9;
 myList[2] = 3.4;
 myList[3] = 3.5;
 `
+
 =
+
 `
 myList = new double[] {1.9, 2.9, 3.4, 3.5};
 `
+
 
 ### 2차원 배열
 
 #### 선언 방법
 
 1) 배열의 값을 미리 알고 있을 때
+
 `
 자료형[][] 변수명 = {{데이터(0행 0열), 데이터(0행1열)}, //0행
-				{데이터(1행 0열), 데이터(1행 1열)}, //1행
-				{데이터(2행 0열), 데이터(2행 1열)}} //2행
-        //0열              1열
+			{데이터(1행 0열), 데이터(1행 1열)}, //1행
+			{데이터(2행 0열), 데이터(2행 1열)}} //2행
+        		//0열              1열
 `
+
 
 `
 example)
