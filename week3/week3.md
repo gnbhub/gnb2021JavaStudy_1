@@ -18,19 +18,13 @@
 
 ```java
 // example)
-
 String[] beer = {"Kloud", "Cass", "Asahi", "Guinness", "Heineken"};
 
 //index = 0 ~ length - 1
-
 System.out.print(beer[0]); //Kloud
-
 System.out.print(beer[1]); //Cass
-
 System.out.print(beer[2]); //Asahi
-
 System.out.print(beer[3]); //Guinness
-
 System.out.print(beer[4]); //Heineken
 ```
 
@@ -40,15 +34,10 @@ System.out.print(beer[4]); //Heineken
 
 ```
 자료형[] 변수 = new 자료형[배열크기]; // 좌우 자료형 통일
-
 .
-
 .
-
 .
-
 변수[0] = 데이터값;
-
 변수[1] = 데이터값;
 ```
 
@@ -56,15 +45,12 @@ System.out.print(beer[4]); //Heineken
 new 연산자로 배열을 생성시킴
 
 
-```
+```java
 // example)
 
 int[] num = new int[3];
-
 num[0] = 10;
-
 num[1] = 15;
-
 num[2] = 13;
 ```
 
@@ -85,7 +71,7 @@ for (int i = 0; i < num.length; i++)
 
 {
 
-num[i] = sc.nextInt(); //데이터 입력 및 배열에 저장
+	num[i] = sc.nextInt(); //데이터 입력 및 배열에 저장
 
 }
 
