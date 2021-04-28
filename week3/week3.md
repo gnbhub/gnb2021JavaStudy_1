@@ -16,7 +16,7 @@
 `
 
 
-`
+```java
 example)
 
 String[] beer = {"Kloud", "Cass", "Asahi", "Guinness", "Heineken"};
@@ -32,13 +32,13 @@ System.out.print(beer[2]); //Asahi
 System.out.print(beer[3]); //Guinness
 
 System.out.print(beer[4]); //Heineken
-`
+```
 
 
 2) 배열의 값은 모르지만 향후 값을 저장하기 위한 배열을 생성하고 싶을 경우 사용✔
 
 
-`
+```
 자료형[] 변수 = new 자료형[배열크기]; // 좌우 자료형 통일
 
 .
@@ -50,13 +50,13 @@ System.out.print(beer[4]); //Heineken
 변수[0] = 데이터값;
 
 변수[1] = 데이터값;
-`
+```
 
 
 new 연산자로 배열을 생성시킴
 
 
-`
+```
 example)
 
 int[] num = new int[3];
@@ -66,13 +66,13 @@ num[0] = 10;
 num[1] = 15;
 
 num[2] = 13;
-`
+```
 
 
 사용 방법
 
 
-`
+```java
 example)
 
 int[] num = new int[5]; //배열 생성
@@ -89,7 +89,7 @@ num[i] = sc.nextInt(); //데이터 입력 및 배열에 저장
 
 }
 
-`
+```
 
 
 위의 예시처럼 배열의 값을 모를 때 배열을 정의만 하고 값은 입력받아 사용!
@@ -110,11 +110,11 @@ arrayRefVar.length
 `
 
 
-`
+```java
 example)
 
 myList.length // return 10
-`
+```
 
 
 #### 배열 디폴트값
