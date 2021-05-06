@@ -1,8 +1,8 @@
-Class MethodOverloading {
-  pubilc int getSum (int i, int j) {
-    return i+j;
+class MethodOverloading {
+  public int getSum (int i, int j) {
+    return i + j;
   }
-  pubillc int getSum(int i, int j, int k) {
+  public int getSum(int i, int j, int k) {
     return i + j + k;
   }
 }  
